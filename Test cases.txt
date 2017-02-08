@@ -1,0 +1,19 @@
+
+			s1:	s2:	s3:	expected output:
+correct inputs:
+case 1:			2	2	2	equilateral triangle
+case 2: 		50	50	50		-||-
+case 3:			2	2	3	isosceles triangle
+case 4:			5	8	5		-||-
+case 5:			8	3	3		-||-
+case 6:			7	10	5	scalene	triangle
+case 7: 		15	13	7		-||-
+
+Invalid inputs:
+case 1:			3	9	3	invalid
+case 2:			17	2	2	invalid
+case 3: 		5	15	7	invalid
+case 4:			9	1	6	invalid
+case 5:			0	3	2	invalid
+case 6:			4	0	3	invalid
+case 7: 		2	2	0	invalid
