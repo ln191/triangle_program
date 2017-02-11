@@ -29,12 +29,12 @@ namespace Execises_triangle_program
                     return "This is an Equilateral triangle";
                 }
                 // Two sides has equal length
-                else if (side1 == side2 && side2 != side3 || side2 == side3 && side3 != side1 || side1 == side3 && side3 != side2)
+                else if (side1 == side2 || side2 == side3 || side1 == side3)
                 {
                     return "This is an Isosceles triangle";
                 }
                 // All sides has different length
-                else if (side1 != side2 && side2 != side3 && side1 != side3)
+                else
                 {
                     return "This is a Scalene triangle";
                 }
